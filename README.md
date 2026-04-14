@@ -38,39 +38,3 @@ Personal portfolio website for Ravi Chandra Eluri, Senior Golang Developer. Buil
 ├── public/               # Static assets (icons, images)
 └── styles/               # Additional stylesheets
 ```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- pnpm
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/ravi-chandra-eluri/portfolio-builder-vercel.git
-cd portfolio-builder-vercel
-
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-
-```bash
-pnpm build
-pnpm start
-```
-
-## Deployment
-
-The site is deployed on Vercel. Any push to `main` triggers an automatic deployment.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ravi-chandra-eluri/portfolio-builder-vercel)
